@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #2e2e2e;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+main {
+  padding: 20px 40px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+}
+
+.search {
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+}
+.search input {
+  width: 100%;
+}
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie {
+  width: 48%;
+  text-align: center;
+  background: #212121;
+  padding: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  margin-bottom: 14px;
+}
+
+.movie__poster {
+  height: 240px;
+}
